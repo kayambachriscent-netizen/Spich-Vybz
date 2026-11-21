@@ -1,0 +1,101 @@
+body {
+    background:
+        radial-gradient(circle at top right,
+        #4e81b0, transparent 40%),
+        linear-gradient(135deg, #9fb06f, #18eb09);
+
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+
+
+h1 {
+    color: darkblue;
+    font-size: 40px;
+}
+
+h2 {
+    color: purple;
+}
+
+p {
+    font-size: 18px;
+}
+.title {
+    color: rgb(114, 14, 145);
+    font-size: 45px;
+    text-align: center;
+}
+.contact {
+    font-size: 20px;
+    color:blueviolet
+}
+
+/* Remove default spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation bar */
+.navbar {
+    background-color: #161b5b;
+    height: 75px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 40px;
+}
+
+/* Website logo */
+.logo {
+    color: white;
+    font-size: 30px;
+    font-family: Arial;
+}
+
+/* Navigation links container */
+.nav-links {
+    display: flex;
+    gap: 40px;
+}
+
+/* Individual links */
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Arial;
+
+    transition: 0.3s;
+}
+
+/* When mouse moves over a link */
+.nav-links a:hover {
+    color: #55f153;
+}
+
+.wel {
+    color: #ff710b;
+    font-size: 60px;
+    text-align: left;
+    margin-top: 40px;
+}
+.projects {
+    font-size: 20px;
+    text-align: left;
+    margin-top: 10px;
+}
+.btn{
+    padding: 10px;
+    border-radius: 20px;
+    border-color: #f76000
+}
+.box{
+    padding: 5px;
+    border-radius: 10px
+}
